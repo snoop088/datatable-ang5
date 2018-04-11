@@ -242,7 +242,6 @@ export class DataTableHeaderComponent {
     const offsetX = this.offsetX;
 
     const styles = {
-      width: `${widths[group]}px`
     };
 
     if (group === 'center') {

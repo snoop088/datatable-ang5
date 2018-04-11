@@ -156,7 +156,6 @@ export class DataTableBodyRowComponent implements DoCheck {
     const offsetX = this.offsetX;
 
     const styles = {
-      width: `${widths[group]}px`
     };
 
     if (group === 'left') {
