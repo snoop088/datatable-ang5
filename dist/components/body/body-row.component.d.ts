@@ -35,7 +35,9 @@ export declare class DataTableBodyRowComponent implements DoCheck {
     trackByGroups(index: number, colGroup: any): any;
     columnTrackingFn(index: number, column: any): any;
     buildStylesByGroup(): void;
-    calcStylesByGroup(group: string): {};
+    calcStylesByGroup(group: string): {
+        width: string;
+    };
     onActivate(event: any, index: number): void;
     onKeyDown(event: KeyboardEvent): void;
     onMouseenter(event: any): void;
